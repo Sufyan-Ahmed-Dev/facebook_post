@@ -81,6 +81,10 @@
   border: 2px solid gray;
   margin-top: 15px;
 }
+.postImg img {
+  height: 100%;
+  width: 100%;
+}
 .postButtons {
   
   margin-top: 10px;

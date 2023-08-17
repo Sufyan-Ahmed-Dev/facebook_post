@@ -8,7 +8,7 @@ function Post(props) {
       <header className="App-header">
         <div className="postbox">
           <div className="Userdata">
-            <img className="userImage" src={LOGO} alt="user IMG" />
+            <img className="userImage" src={props.Image} alt="user IMG" />
             <div className="userName">{props.name}</div>
             <div className="userDate">{props.date}</div>
           </div>
@@ -16,7 +16,7 @@ function Post(props) {
              {props.text}
           </div>
           <div className="postImg">
-            <img src={LOGO} alt="postIMG" />
+            <img src={props.Image} alt="postIMG" />
           </div>
           <div className="postButtons">
             <button className="button1">Like</button>
