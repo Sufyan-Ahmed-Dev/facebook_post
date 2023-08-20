@@ -1,5 +1,4 @@
 import React from 'react'
-import LOGO from "../logo.svg";
 import "./App.css";
 function Post(props) {
   return (
